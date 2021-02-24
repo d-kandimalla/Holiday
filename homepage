@@ -5,23 +5,23 @@ import './App.css';
 
 function App() {
       <div>
-        <Slide easing="ease">
+       
           <div className="each-slide">
-            <div style={{'backgroundImage': `url(${S_Img[0]})`}}>
-              <span>Slide 1</span>
+           
+              <span>1</span>
             </div>
           </div>
           <div className="each-slide">
-            <div style={{'backgroundImage': `url(${S_Img[1]})`}}>
-              <span>Slide 2</span>
+           
+              <span> 2</span>
             </div>
           </div>
           <div className="each-slide">
-            <div style={{'backgroundImage': `url(${S_Img[2]})`}}>
-              <span>Slide 3</span>
+           
+              <span> 3</span>
             </div>
           </div>
-        </Slide>
+      
       </div>
     )
 return (
